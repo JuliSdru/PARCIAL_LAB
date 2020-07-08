@@ -1,0 +1,32 @@
+<div *ngIf="persona !=null">
+
+    <mat-card class="example-card">
+
+        <mat-card-header>
+        <h2 style="font-size: medium; position: relative; left: -10px;">
+          •DETALLES DEL PERSONAJE•</h2>
+        </mat-card-header>
+        
+        
+
+        <mat-card-content>
+        <img mat-card-image [src]="persona.img">
+        <h2 style="font-size: medium;">
+          <i>•Nombre real: {{persona.name}}</i>
+          </h2>
+        <h2 style="font-size: medium;">
+          <i>•Apodo: {{persona.nickname}}</i>
+          </h2>
+        <h2 style="font-size: medium;">
+          <i>•Ocupación: {{persona.occupation[0]}}</i>
+          </h2>
+         
+        </mat-card-content>
+
+      </mat-card>
+      
+
+</div>
+ 
+
+

@@ -1,0 +1,34 @@
+
+<mat-card id="card" class = "card">
+
+	<mat-card-content >
+    <h1 style="text-align: center;">¡Bienvenido/a!</h1>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>CORREO ELECTRÓNICO</mat-label>
+        <input matInput placeholder="mail@mail.com" [(ngModel)]="email">
+       <mat-icon matSuffix>
+        alternate_email</mat-icon>
+      </mat-form-field> 
+    </p>
+       <p >
+        <mat-form-field appearance="outline" >
+          <mat-label >CONTRASEÑA</mat-label>
+          <input matInput placeholder="***********" [(ngModel)]="password">
+         <mat-icon matSuffix>fingerprint</mat-icon>
+        </mat-form-field> 
+      </p> 
+  
+      
+    <BR>
+      <BR>
+
+
+    <button mat-raised-button style="margin-right:5px; background-color: orange" class="boton1" (click)="onSubmitLogin()">INGRESAR</button>
+    <BR>
+    <button mat-raised-button  style="margin-right:5px; background-color: orange" class="boton2" (click)="irRegistrarse()">CREAR CUENTA</button>
+    
+
+  </mat-card-content>
+
+</mat-card>

@@ -1,0 +1,27 @@
+<div *ngIf="episodio !=null">
+
+    <mat-card class="example-card">
+
+        <mat-card-header>
+        <h2 style="font-size: medium; position: relative; left: -10px;">•DETALLES DEL EPISODIO•</h2>
+        </mat-card-header>
+
+        <mat-card-content>
+        <h2 style="font-size: medium;">
+          <i>•Temporada: {{episodio.season}}</i>
+          </h2>
+        <h2 style="font-size: medium;">
+          <i>•Titulo: {{episodio.title}}</i>
+          </h2>
+        <h2 style="font-size: medium;">
+        <i>•Estreno: {{episodio.air_date | date:"MM/dd/yy"}}</i>
+        </h2> <!-- ACÁ UTILIZO UN PIPE DE FECHA-->
+        </mat-card-content>
+
+      </mat-card>
+      
+
+</div>
+ 
+
+

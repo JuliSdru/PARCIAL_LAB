@@ -1,0 +1,30 @@
+.example-card {
+    max-width: 400px;
+    z-index: 999;
+    top: 20%;
+    left: 70%;
+    position: absolute;
+    position: fixed;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
+  img {
+    max-height: 350px;
+    max-width: 400px;
+    width: 420px;
+    height: 420px;
+  }
+  .example-card {
+    max-width: 250px;
+    z-index: 999;
+    top: 22%;
+    left: 78%;
+    position: absolute;
+    position: fixed;
+    background-color: rgba(63, 62, 62, 0.623);
+  }
+  
